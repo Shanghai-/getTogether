@@ -7,12 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "UserDataSingleton.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyBXSS0iBrZPzDWKYzCIt9VR87U9aSi3Mdc"];
     return YES;
 }
 							
@@ -26,6 +28,7 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    NSLog(@"Application entered background.");
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -40,7 +43,24 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
+    NSLog(@"Application will terminate.");
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    UserDataSingleton *singleton = [UserDataSingleton getInstance];
+    if ([singleton getUserID] != nil) {
+        NSLog(@"Singleton contains data. Performing logout request.");
+        int uID = [[singleton getUserID] intValue];
+        NSURL *logoutURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://walsh.browning.edu/logout.php?userID=%i",uID]];
+        NSURLRequest *request = [NSURLRequest requestWithURL:logoutURL];
+        NSURLResponse *response = nil;
+        NSError *err = nil;
+        NSLog(@"Connection will begin.");
+        [NSURLConnection sendSynchronousRequest:request
+                              returningResponse:&response
+                                          error:&err];
+        NSLog(@"Connection finished, shutting down.");
+    } else {
+        NSLog(@"Singleton contains no data. Shutting down.");
+    }
 }
 
 @end

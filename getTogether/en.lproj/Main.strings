@@ -1,0 +1,63 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "3x8-Qu-R2C"; */
+"3x8-Qu-R2C.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Don't have an account?"; ObjectID = "4db-Bz-gco"; */
+"4db-Bz-gco.text" = "Don't have an account?";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "63X-xJ-D7u"; */
+"63X-xJ-D7u.text" = "Title";
+
+/* Class = "IBUITabBarItem"; title = "Friends"; ObjectID = "8NE-YY-eum"; */
+"8NE-YY-eum.title" = "Friends";
+
+/* Class = "IBUINavigationItem"; title = "Log In"; ObjectID = "AsH-Or-jHv"; */
+"AsH-Or-jHv.title" = "Log In";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "GqX-9j-FCT"; */
+"GqX-9j-FCT.text" = "Title";
+
+/* Class = "IBUILabel"; text = "getTogether"; ObjectID = "Nbn-Y7-E8T"; */
+"Nbn-Y7-E8T.text" = "getTogether";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "NuG-va-Uwj"; */
+"NuG-va-Uwj.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Odi-aF-DxF"; */
+"Odi-aF-DxF.text" = "Title";
+
+/* Class = "IBUITabBarItem"; badgeValue = "1"; ObjectID = "ROx-dK-UcC"; */
+"ROx-dK-UcC.badgeValue" = "1";
+
+/* Class = "IBUITabBarItem"; title = "Invites"; ObjectID = "ROx-dK-UcC"; */
+"ROx-dK-UcC.title" = "Invites";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "WMg-Tv-ywf"; */
+"WMg-Tv-ywf.text" = "Title";
+
+/* Class = "IBUILabel"; text = "getTogether"; ObjectID = "YON-TY-WDV"; */
+"YON-TY-WDV.text" = "getTogether";
+
+/* Class = "IBUIButton"; normalTitle = "Register"; ObjectID = "bpd-vH-bz5"; */
+"bpd-vH-bz5.normalTitle" = "Register";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "c9o-Xs-ovH"; */
+"c9o-Xs-ovH.text" = "Password";
+
+/* Class = "IBUINavigationItem"; title = "Forgot Password"; ObjectID = "dZB-7T-Qe1"; */
+"dZB-7T-Qe1.title" = "Forgot Password";
+
+/* Class = "IBUIButton"; normalTitle = "Forgot your Password?"; ObjectID = "oku-Yg-EXN"; */
+"oku-Yg-EXN.normalTitle" = "Forgot your Password?";
+
+/* Class = "IBUINavigationItem"; title = "Register"; ObjectID = "pVQ-3S-SFu"; */
+"pVQ-3S-SFu.title" = "Register";
+
+/* Class = "IBUIButton"; normalTitle = "Log in"; ObjectID = "tRZ-Ni-S3L"; */
+"tRZ-Ni-S3L.normalTitle" = "Log in";
+
+/* Class = "IBUILabel"; text = "getTogether"; ObjectID = "vSE-4r-hv9"; */
+"vSE-4r-hv9.text" = "getTogether";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "xC4-K5-Is3"; */
+"xC4-K5-Is3.text" = "Username";
